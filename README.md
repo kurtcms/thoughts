@@ -1,6 +1,6 @@
 # Thoughts: A Blank Canvas WordPress Theme for Thoughts of All Sorts.
 
-<kbd>![alt text](https://kurtcms.org/thoughts/thoughts-screenshot.png)</kbd>
+<kbd>![alt text](https://kurtcms.org/git/thoughts/thoughts-screenshot.png)</kbd>
 
 Theme Name: Thoughts  
 Theme URI: https://github.com/kurtcms/thoughts  
