@@ -1,0 +1,13 @@
+{{ define "main" }}
+<main class="col-lg-6 mx-auto px-3">
+    <ul>
+    {{ range .Pages }}
+        <li class="mb-2">
+            <article>
+                <a class="text-reset" href="{{ .Permalink }}">{{.Title}}</a>
+            </article>
+        </li>
+    {{ end }}
+    </ul>
+</main>
+{{ end }}

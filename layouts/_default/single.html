@@ -1,0 +1,28 @@
+{{ define "main" }}
+<main class="col-lg-6 mx-auto px-3">
+    <article>
+      <h2 class="pb-1">{{ .Title }}</h2>
+      <p class="h5 pb-3">Posted on {{ .Date.Format "January 2, 2006" }} &mdash;
+        {{ math.Ceil ( div .WordCount 200.0 ) }}
+        {{ if gt .WordCount 200 }}
+          Minutes 
+        {{ else }}
+          Minute
+        {{ end }} Read
+      </p>
+      {{ .Content }}
+      <aside id="meta">
+        <div class="pb-1">
+          {{ with .PrevInSection }}
+            <a class="text-reset" href="{{ .Permalink }}">Previous: {{ .Title }}</a>
+          {{ end }}
+        </div>
+        <div>
+          {{ with .NextInSection }}
+            <a class="text-reset" href="{{ .Permalink }}">Next: {{ .Title }}</a>
+          {{ end }}
+        </div>
+    </aside>
+   </article>
+</main>
+{{ end }}

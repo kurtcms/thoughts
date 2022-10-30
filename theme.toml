@@ -1,0 +1,34 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "Thoughts"
+license = "MIT"
+licenselink = "https://github.com/kurtcms/thoughts/blob/master/LICENSE"
+description = "Building upon the awesome Bootstrap 5 CSS framework, Thoughts is a blank canvas Hugo theme for thoughts of all sorts."
+homepage = "https://github.com/kurtcms/thoughts/"
+tags = [
+  "blog",
+  "light",
+  "clean",
+  "simple",
+  "bootstrap5",
+  "responsive",
+  "minimalist",
+  "twitter-cards",
+  "open-graph",
+  "reading-time"
+]
+features = [
+  "blog",
+  "bootstrap5",
+  "responsive",
+  "single-column",
+  "twitter-cards",
+  "open-graph",
+  "reading-time"
+]
+min_version = "0.41.0"
+
+[author]
+  name = "Kurt, Cheung Mun See"
+  homepage = "https://kurtcms.org"

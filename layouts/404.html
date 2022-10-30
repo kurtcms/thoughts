@@ -1,0 +1,14 @@
+{{ define "main"}}
+<main class="col-lg-6 mx-auto p-3">
+  <p >Nothing is found at this location. Maybe try one of the posts below?</p>
+  <ul>
+  {{ range first 10 .Pages }}
+      <li class="mb-2">
+          <article>
+              <a class="text-reset" href="{{ .Permalink }}">{{.Title}}</a>
+          </article>
+      </li>
+  {{ end }}
+  </ul>
+</main>
+{{ end }}

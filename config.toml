@@ -1,0 +1,29 @@
+baseURL = "/"
+languageCode = "en-us"
+
+# A title for the website
+title = ""
+theme = "thoughts"
+enableRobotsTXT = true
+
+[params]
+    # A description of the website
+    description = ""
+    
+    # Twitter handle
+    twitter = ""
+
+    # Email
+    email = ""
+
+    # GitHub username
+    github = ""
+
+    # LinkedIn username
+    linkedin = ""
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      # Render raw HTML with Goldmark
+      unsafe = true
