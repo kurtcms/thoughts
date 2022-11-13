@@ -8,7 +8,7 @@ A detailed walk-through is available [here](https://kurtcms.org/from-wordpress-t
 
 ## Installation
 
-Download a copy of the themme with `git submodule`
+Download a copy of the theme with `git submodule`
 
 ```shell
 $ cd /hugo/
