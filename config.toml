@@ -27,3 +27,6 @@ enableRobotsTXT = true
     [markup.goldmark.renderer]
       # Render raw HTML with Goldmark
       unsafe = true
+  [markup.tableOfContents]
+    startLevel = 3
+    endLevel = 6
