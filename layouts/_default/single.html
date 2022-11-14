@@ -15,12 +15,12 @@
       <aside id="meta">
         <div class="pb-1">
           {{ with .PrevInSection }}
-            <a class="text-reset" href="{{ .Permalink }}">Previous: {{ .Title }}</a>
+            <a href="{{ .Permalink }}">Previous: {{ .Title }}</a>
           {{ end }}
         </div>
         <div>
           {{ with .NextInSection }}
-            <a class="text-reset" href="{{ .Permalink }}">Next: {{ .Title }}</a>
+            <a href="{{ .Permalink }}">Next: {{ .Title }}</a>
           {{ end }}
         </div>
     </aside>
