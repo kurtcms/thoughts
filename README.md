@@ -8,7 +8,7 @@ A detailed walk-through is available [here](https://kurtcms.org/web-development-
 
 ## Installation
 
-Download a copy of the theme to the theme directory with `git submodule`
+Download a copy of the theme with `git submodule`
 
 ```shell
 $ git submodule add https://github.com/kurtcms/thoughts themes/thoughts
