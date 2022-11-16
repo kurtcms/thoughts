@@ -4,27 +4,25 @@ Building upon the awesome [Bootstrap 5](https://github.com/twbs/bootstrap) CSS f
 
 <kbd>![Thoughts: A Blank Canvas Hugo Theme for Thoughts of All Sorts](https://github.com/kurtcms/thoughts/blob/master/screenshot.png)</kbd>
 
-A detailed walk-through is available [here](https://kurtcms.org/from-wordpress-to-hugo/).
+A detailed walk-through is available [here](https://kurtcms.org/web-development-from-wordpress-to-hugo/).
 
 ## Installation
 
-Download a copy of the theme with `git submodule`
+Download a copy of the theme to the theme directory with `git submodule`
 
 ```shell
-$ cd /hugo/
-$ git init
 $ git submodule add https://github.com/kurtcms/thoughts themes/thoughts
 $ git submodule update --init --recursive
 ```
 
-Copy the provided configuration file.
+Copy the provided configuration file to the site directory
 
 ```shell
-$ cp /hugo/themes/thoughts/config.toml /hugo/config.toml
+$ cp themes/thoughts/config.toml config.toml
 ```
 
 Modify the parameters accordingly.
 
 ```shell
-$ nano /hugo/config.toml
+$ nano config.toml
 ```
