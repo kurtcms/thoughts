@@ -8,14 +8,14 @@ A detailed walk-through is available [here](https://kurtcms.org/web-development-
 
 ## Installation
 
-Download a copy of the theme with `git submodule`
+Download a copy of the theme with `git submodule`.
 
 ```shell
 $ git submodule add https://github.com/kurtcms/thoughts themes/thoughts
 $ git submodule update --init --recursive
 ```
 
-Copy the provided configuration file to the site directory
+Copy the provided configuration file to the site directory.
 
 ```shell
 $ cp themes/thoughts/config.toml config.toml
